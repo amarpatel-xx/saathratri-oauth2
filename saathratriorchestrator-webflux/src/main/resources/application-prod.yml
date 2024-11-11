@@ -1,0 +1,13 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://${AUTH0_DOMAIN}/
+          
+
+cors:
+  allowed-origin: http://localhost:8080
+
+server:
+  port: 8888

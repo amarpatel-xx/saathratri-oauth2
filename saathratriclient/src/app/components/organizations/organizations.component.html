@@ -1,0 +1,12 @@
+<div *ngIf="organizations.length">
+    <h2>Organizations</h2>
+    <ul>
+      <li *ngFor="let organization of organizations">
+        {{ organization.name }} - {{ organization.description }}
+      </li>
+    </ul>
+</div>
+<div *ngIf="!organizations.length">
+    <p>No organizations available.</p>
+</div>
+  

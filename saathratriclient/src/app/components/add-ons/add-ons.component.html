@@ -1,0 +1,13 @@
+<div *ngIf="addOns.length">
+    <h2>Add-Ons</h2>
+    <ul>
+        <li *ngFor="let addOn of addOns">
+            {{ addOn.name }} - {{ addOn.description }} - Cost: ${{ addOn.cost }} - 
+            <span *ngIf="addOn.isConfirmed">Confirmed</span>
+            <span *ngIf="!addOn.isConfirmed">Not Confirmed</span>
+        </li>
+    </ul>
+</div>
+<div *ngIf="!addOns.length">
+    <p>No add-ons available.</p>
+</div>

@@ -1,0 +1,66 @@
+# Angular build output
+dist/
+out-tsc/
+.tmp/
+
+# Dependencies
+node_modules/
+
+# IDEs and editors
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.vscode/
+
+# Compiled TypeScript
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+*.pid
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Angular specific
+.angular/
+
+# Testing
+coverage/
+**/coverage/
+**/test-results/
+reports/
+junit/
+results/
+
+# Environment files
+src/environments/environment.*.ts
+
+# Temporary files and backups
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Generated files by Angular CLI
+*.angular/cache/
+.eslintcache
+
+# Other
+*.lock
+*.idea/
+*.sublime-project
+*.sublime-workspace

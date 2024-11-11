@@ -1,0 +1,11 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:9080/realms/jhipster
+cors:
+  allowed-origin: http://localhost:4200
+
+server:
+  port: 8080
