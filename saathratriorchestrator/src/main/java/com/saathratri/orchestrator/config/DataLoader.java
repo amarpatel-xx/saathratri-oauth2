@@ -23,10 +23,10 @@ public class DataLoader {
     @Bean
     CommandLineRunner loadAddOnsData(AddOnRepository addOnRepository) {
         return args -> {
-            addOnRepository.save(new AddOn("Early Check-in", "Check-in earlier than standard time", 20.0, true, "1", "Service"));
-            addOnRepository.save(new AddOn("Very Early Check-in", "Check-in significantly earlier than standard time", 40.0, true, "1", "Service"));
-            addOnRepository.save(new AddOn("Late Check-out", "Check-out later than standard time", 25.0, true, "1", "Service"));
-            addOnRepository.save(new AddOn("Very Late Check-out", "Check-out significantly later than standard time", 50.0, true, "1", "Service"));
+            addOnRepository.save(new AddOn("Add-on 1", "Description 1", 10.0, true, "1", "Service"));
+            addOnRepository.save(new AddOn("Add-on 2", "Description 2", 20.0, true, "1", "Service"));
+            addOnRepository.save(new AddOn("Add-on 3", "Description 3", 35.0, true, "1", "Service"));
+            addOnRepository.save(new AddOn("Add-on 4", "Description 4", 40.0, true, "1", "Service"));
         };
     }
 }

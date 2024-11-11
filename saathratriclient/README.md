@@ -35,7 +35,3 @@ Run `http-server ./dist/angularclient`
 ## Build
 
 Run `npm run ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-# Setup the security environment.
-cd ~/workspace/jhipster-8/saathratri-main/keycloak/saathratri-prototype/saathratriclient-prototype/
-ln -sf ~/Dropbox/.private/saathratriclient-prototype/auth_config.json .
